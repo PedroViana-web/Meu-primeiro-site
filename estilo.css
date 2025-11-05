@@ -1,0 +1,59 @@
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #f0fdf4;
+}
+
+.ods7-cor-principal {
+    color: #059669;
+}
+
+.ods7-bg-principal {
+    background-color: #059669;
+}
+
+.container-central {
+    max-width: 900px;
+    box-shadow: 0 10px 25px -3px rgba(0, 0, 0, 0.1),
+                0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    min-height: 100vh;
+}
+
+.secao {
+    padding: 4rem 2rem;
+}
+
+.btn {
+    padding: 12px 24px;
+    border-radius: 9999px;
+    font-weight: 600;
+    background-color: white;
+    color: #059669;
+    transition: background-color 0.3s, transform 0.1s;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    text-transform: uppercase;
+    font-size: 0.875rem;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background-color: #f3f4f6;
+    transform: translateY(-1px);
+}
+
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    border-radius: 12px;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
