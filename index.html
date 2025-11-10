@@ -1,123 +1,87 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ODS 7: Energia Acessível e Limpa</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body class="flex justify-center">
-    <div class="container-central bg-white mx-4">
-        
-        <header id="inicio" class="secao ods7-bg-principal text-white text-center rounded-b-xl">
-            <h1 class="text-4xl sm:text-5xl font-extrabold mb-4">ODS 7: Energia Acessível e Limpa</h1>
-            <p class="text-xl font-light mb-8">O caminho para um futuro energético sustentável e justo para todos.</p>
-            <nav class="flex flex-wrap justify-center gap-4">
-                <a href="#o-que-e" class="btn">O QUE É</a>
-                <a href="#importancia" class="btn">IMPORTÂNCIA</a>
-                <a href="#video" class="btn">VÍDEO</a>
-                <a href="#metas" class="btn">METAS</a>
-                <a href="#brasil" class="btn">BRASIL</a>
-                <a href="#desafios" class="btn">DESAFIOS</a>
-            </nav>
-        </header>
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; 
+    color: #333;
+}
 
-        <section id="o-que-e" class="secao">
-            <h2 class="text-3xl font-bold ods7-cor-principal mb-6 border-b-2 border-gray-200 pb-2">O QUE É A ODS 7</h2>
-            <p class="text-lg mb-4">A ODS 7 — Energia Acessível e Limpa — é um dos 17 Objetivos de Desenvolvimento Sustentável da ONU, que busca garantir o acesso universal a serviços de energia confiáveis, modernos e sustentáveis até 2030.</p>
-            <p class="mb-4">A energia é essencial para o desenvolvimento humano. Sem eletricidade, hospitais, escolas, transportes e empresas não funcionam adequadamente. O desafio global é garantir que essa energia seja limpa e acessível para todos, reduzindo o uso de combustíveis fósseis e incentivando a inovação.</p>
-        </section>
+header, main, footer {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
 
-        <section id="importancia" class="secao bg-blue-50">
-            <h2 class="text-3xl font-bold ods7-cor-principal mb-6 border-b-2 border-gray-300 pb-2">IMPORTÂNCIA DA ENERGIA LIMPA</h2>
-            <p class="text-lg mb-4">Com o aumento populacional e industrial, cresce também a demanda por energia. Contudo, essa necessidade deve ser suprida de forma sustentável para evitar danos ambientais irreversíveis.</p>
-            <h3 class="text-xl font-semibold ods7-cor-principal mt-6 mb-3">Principais Benefícios:</h3>
-            <ul class="list-disc list-inside ml-4 space-y-2 text-gray-700">
-                <li><strong>Combate às Mudanças Climáticas:</strong> Reduz as emissões de gases de efeito estufa e preserva o equilíbrio do planeta.</li>
-                <li><strong>Saúde Pública:</strong> Diminui a poluição do ar e melhora a qualidade de vida.</li>
-                <li><strong>Economia Sustentável:</strong> Gera empregos verdes e reduz custos energéticos a longo prazo.</li>
-                <li><strong>Inclusão Social:</strong> Leva energia moderna a regiões isoladas e comunidades vulneráveis.</li>
-            </ul>
-        </section>
+#introducao img {
+    max-width: 100%;
+    width: 600px;
+    height: auto;
+    display: block;
+    margin: 15px auto;
+}
 
-    
-<section id="video" class="secao bg-yellow-50 text-center">
-    <h2 class="text-3xl font-bold ods7-cor-principal mb-6 border-b-2 border-gray-300 pb-2">ENERGIA SUSTENTÁVEL EM AÇÃO</h2>
-    <p class="text-lg mb-6">Assista ao vídeo abaixo para entender como a energia limpa transforma comunidades e impulsiona o desenvolvimento sustentável:</p>
+header {
+    background-color: #0077b6; 
+    color: white;
+    padding: 30px 20px;
+    text-align: center;
+}
 
-    <div class="video-container" aria-hidden="false">
-    
-        <iframe
-            src="https://www.youtube.com/watch?v=ngh0iivdASA"
-            title="Energia Sustentável - ONU Brasil"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
-            loading="lazy"></iframe>
-    </div>
-
-</section>
+header h1 {
+    margin-top: 0;
+}
 
 
-        <section id="metas" class="secao bg-green-50">
-            <h2 class="text-3xl font-bold ods7-cor-principal mb-6 border-b-2 border-gray-300 pb-2">METAS DA ODS 7</h2>
-            <p class="text-lg mb-6">A ONU definiu metas específicas para que todos os países possam atingir o desenvolvimento energético sustentável:</p>
-            <ul class="space-y-4 text-gray-700">
-                <li class="p-4 bg-white rounded-lg shadow-sm border-l-4 border-yellow-500">
-                    <p class="font-semibold">7.1 Acesso Universal:</p>
-                    <p class="text-sm">Garantir que todos tenham acesso a energia segura, moderna e a preços acessíveis.</p>
-                </li>
-                <li class="p-4 bg-white rounded-lg shadow-sm border-l-4 border-yellow-500">
-                    <p class="font-semibold">7.2 Energias Renováveis:</p>
-                    <p class="text-sm">Aumentar a participação de fontes renováveis como solar, eólica, biomassa e hidráulica.</p>
-                </li>
-                <li class="p-4 bg-white rounded-lg shadow-sm border-l-4 border-yellow-500">
-                    <p class="font-semibold">7.3 Eficiência Energética:</p>
-                    <p class="text-sm">Melhorar o uso de energia em indústrias, transportes e residências.</p>
-                </li>
-                <li class="p-4 bg-white rounded-lg shadow-sm border-l-4 border-yellow-500">
-                    <p class="font-semibold">7.A Cooperação e Tecnologia:</p>
-                    <p class="text-sm">Promover a transferência de tecnologia e financiamento para países em desenvolvimento.</p>
-                </li>
-            </ul>
-        </section>
+section {
+    padding: 20px 0;
+    border-bottom: 1px solid #ccc;
+    text-align: left;
+}
 
-        <section id="brasil" class="secao">
-            <h2 class="text-3xl font-bold ods7-cor-principal mb-6 border-b-2 border-gray-200 pb-2">O BRASIL E A ODS 7</h2>
-            <p class="text-lg mb-4">O Brasil é referência em energia limpa na América Latina, com mais de 80% de sua eletricidade proveniente de fontes renováveis. No entanto, desafios como desigualdade energética e dependência da chuva ainda persistem.</p>
-            <h3 class="text-xl font-semibold ods7-cor-principal mt-6 mb-3">Novas Iniciativas:</h3>
-            <ul class="list-disc list-inside ml-4 space-y-2 text-gray-700">
-                <li>Expansão de parques eólicos e solares no Nordeste.</li>
-                <li>Projetos de biogás e biomassa em comunidades rurais.</li>
-                <li>Programas governamentais de eficiência energética em escolas e prédios públicos.</li>
-            </ul>
-        </section>
+section h2 {
+    color: #0077b6;
+    border-bottom: 2px solid #0077b6;
+    padding-bottom: 5px;
+    margin-top: 0;
+}
 
-        <section id="desafios" class="secao bg-red-50">
-            <h2 class="text-3xl font-bold ods7-cor-principal mb-6 border-b-2 border-gray-300 pb-2">DESAFIOS GLOBAIS</h2>
-            <p class="text-lg mb-6">A transição para a energia limpa é complexa e envolve desafios políticos, tecnológicos e econômicos. Alguns dos principais são:</p>
-            <ul class="space-y-4 text-gray-700">
-                <li class="p-4 bg-white rounded-lg shadow-sm border-l-4 border-red-400">
-                    <p class="font-semibold">Financiamento Insuficiente:</p>
-                    <p class="text-sm">Muitos países carecem de recursos para investir em infraestrutura energética sustentável.</p>
-                </li>
-                <li class="p-4 bg-white rounded-lg shadow-sm border-l-4 border-red-400">
-                    <p class="font-semibold">Tecnologias Acessíveis:</p>
-                    <p class="text-sm">O custo inicial de instalação ainda é alto, especialmente para países emergentes.</p>
-                </li>
-                <li class="p-4 bg-white rounded-lg shadow-sm border-l-4 border-red-400">
-                    <p class="font-semibold">Capacitação e Educação:</p>
-                    <p class="text-sm">A transição energética exige formação de profissionais qualificados e políticas educacionais sólidas.</p>
-                </li>
-            </ul>
-        </section>
+ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
 
-        <footer class="text-center py-6 border-t border-gray-200 text-gray-500 text-sm">
-            <p>&copy; 2025 ODS 7 - Projeto meu primeiro site.</p>
-            <a href="#inicio" class="ods7-cor-principal hover:underline">Voltar ao INÍCIO</a>
-        </footer>
 
-    </div>
-</body>
-</html>
+.bloco-midia, .bloco-imagem {
+    margin: 20px 0;
+}
+
+.bloco-midia iframe {
+    max-width: 100%;
+    display: block;
+    margin: 0 auto; 
+}
+
+.bloco-imagem h3 {
+    margin-bottom: 10px;
+    color: #0077b6;
+}
+
+.bloco-imagem img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+footer {
+    text-align: center;
+    font-size: 0.9em;
+    color: #666;
+    padding: 10px 20px 20px 20px;
+}
+
+#conclusao 
+{
+    padding: 40px 0;
+    text-align: center;
+    background-color: #e6f7ff;}
